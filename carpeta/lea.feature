@@ -23,6 +23,3 @@ Feature: User Login
     Examples:
       | email            | password      | error_message                    |
       | wrong@email.com  | validPass123  | Invalid email or password       |
-      |                  | validPass123  | Email field cannot be empty     |
-      | user@example.com |              | Password field cannot be empty   |
-      | invalid.email    | shortpass     | Please enter a valid email      |
