@@ -13,6 +13,6 @@ Feature: #Here the title is described
     When actions
     Then validations
     
-    Examples:
+    Examples: 
       | field | field2 |
       | data  | data2  |
