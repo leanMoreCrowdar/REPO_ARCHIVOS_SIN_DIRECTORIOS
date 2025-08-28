@@ -1,4 +1,4 @@
-ScenarioFailed login attempts
+Scenario: Failed login attempts
 Given the application is running
 
 And I am on the login page
