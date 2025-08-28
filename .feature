@@ -26,3 +26,11 @@ Feature: User Login
       |                  | validPass123  | Email field cannot be empty     |
       | user@example.com |              | Password field cannot be empty   |
       | invalid.email    | shortpass     | Please enter a valid email      |
+
+
+    Scenario: LEA
+    When I enter "user@example.com" in the email field
+    And I enter "validPassword123" in the password field
+    And I click the login button
+    Then I should be redirected to the dashboard
+    And I should see a welcome message with my username
