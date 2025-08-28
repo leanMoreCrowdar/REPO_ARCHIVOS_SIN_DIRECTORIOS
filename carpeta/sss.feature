@@ -7,12 +7,19 @@ Feature: #Here the title is described
     When actions
     Then validations
       
+      
+        #Here the scenario is described
+  Scenario: scenario title
+    Given preconditions
+    When actions
+    Then validations
+      
   #Here the scenario is described
   Scenario Outline: scenario title <field> <field2>
     Given preconditions
     When actions
     Then validations
     
-    Examples: 
+    Examples:
       | field | field2 |
       | data  | data2  |
