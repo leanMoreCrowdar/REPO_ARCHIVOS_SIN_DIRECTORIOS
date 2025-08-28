@@ -3,15 +3,16 @@ Feature: User Login
   I want to be able to login to the application
   So that I can access my account
 
-Scenario: Failed login attempts
-  Given the application is running
-  
-  And I am on the login page
-  
-  When I enter "wrong@email.com" in the email field
-  
-  And I enter "validPass123" in the password field
-  
-  And I click the login button
-  
-  Then I should see an error message saying "Invalid email or password"
+  Scenario: Successful login with valid credentials
+    When I enter "user@example.com" in the email field
+    And I enter "validPassword123" in the password field
+    And I click the login button
+    Then I should be redirected to the dashboard
+    And I should see a welcome message with my username
+    
+    Scenario: Successful login with valid credentials
+    When I enter "user@example.com" in the email field
+    And I enter "validPassword123" in the password field
+    And I click the login button
+    Then I should be redirected to the dashboard
+    And I should see a welcome message with my username
