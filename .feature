@@ -1,5 +1,5 @@
 Feature: User Login 
-  As a registered user
+  As a registered user 
   I want to be able to login to the application
   So that I can access my account
 
@@ -34,3 +34,4 @@ Feature: User Login
     And I click the login button
     Then I should be redirected to the dashboard
     And I should see a welcome message with my username
+
