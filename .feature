@@ -14,6 +14,13 @@ Feature: User Login
     Then I should be redirected to the dashboard
     And I should see a welcome message with my username
 
+  Scenario: Successful login with valid credentials
+    When I enter "user@example.com" in the email field
+    And I enter "validPassword123" in the password field
+    And I click the login button
+    Then I should be redirected to the dashboard
+    And I should see a welcome message with my username
+
   Scenario Outline: Failed login attempts
     When I enter "<email>" in the email field
     And I enter "<password>" in the password field
@@ -34,4 +41,5 @@ Feature: User Login
     And I click the login button
     Then I should be redirected to the dashboard
     And I should see a welcome message with my username
+
 
