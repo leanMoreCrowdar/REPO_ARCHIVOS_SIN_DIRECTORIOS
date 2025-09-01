@@ -4,7 +4,7 @@ Feature: User Login
   So that I can access my account
 
   Background:
-    Given the application is running
+    Given the application is running 
     And I am on the login page
 
   Scenario: Successful login with valid credentials
@@ -41,5 +41,6 @@ Feature: User Login
     And I click the login button
     Then I should be redirected to the dashboard
     And I should see a welcome message with my username
+
 
 
