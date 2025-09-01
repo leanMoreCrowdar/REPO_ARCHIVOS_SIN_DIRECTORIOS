@@ -7,6 +7,7 @@ Feature: User Login
     Given the application is running 
     And I am on the login page
 
+  @LEAN
   Scenario: Successful login with valid credentials
     When I enter "user@example.com" in the email field
     And I enter "validPassword123" in the password field
@@ -41,6 +42,7 @@ Feature: User Login
     And I click the login button
     Then I should be redirected to the dashboard
     And I should see a welcome message with my username
+
 
 
 
