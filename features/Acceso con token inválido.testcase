@@ -1,0 +1,20 @@
+Tags:
+@API @Security
+
+Identifier:
+TC029
+
+Title:
+Acceso con token inválido
+
+Description:
+Verificar que la API rechace tokens inválidos.
+
+Preconditions:
+
+
+Steps:
+1. Hacer una solicitud con token inválido
+
+Expected Result:
+La API responde con error 401.
