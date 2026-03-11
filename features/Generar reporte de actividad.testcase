@@ -1,0 +1,24 @@
+#ltm_test_case_id: - 107d8941-8492-4765-8e37-e73b7f444020 - 
+
+Tags:
+@Reportes @Smoke
+
+Identifier:
+TC039
+
+Title:
+Generar reporte de actividad
+
+Description:
+Verificar que el usuario pueda generar un reporte.
+
+Preconditions:
+Usuario con permisos para reportes.
+
+Steps:
+1. Acceder a reportes
+2. Seleccionar periodo
+3. Generar
+
+Expected Result:
+El sistema descarga un archivo con los datos solicitados.

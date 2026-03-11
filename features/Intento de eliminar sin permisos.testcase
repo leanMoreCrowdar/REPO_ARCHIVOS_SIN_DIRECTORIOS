@@ -1,0 +1,23 @@
+#ltm_test_case_id: - f4df39ae-5ee3-499e-810b-1875644c7dba - 
+
+Tags:
+@Permisos @Security
+
+Identifier:
+TC034
+
+Title:
+Intento de eliminar sin permisos
+
+Description:
+Verificar que el usuario sin permiso no pueda eliminar registros.
+
+Preconditions:
+Usuario sin permisos de edición.
+
+Steps:
+1. Acceder a listado
+2. Intentar eliminar un registro
+
+Expected Result:
+El sistema bloquea la acción y muestra mensaje de error.

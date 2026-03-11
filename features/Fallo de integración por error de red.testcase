@@ -1,0 +1,22 @@
+#ltm_test_case_id: - ea74e089-27c1-454e-8fa0-3f34d63955b3 - 
+
+Tags:
+@Integración @API
+
+Identifier:
+TC042
+
+Title:
+Fallo de integración por error de red
+
+Description:
+Verificar que el sistema maneje correctamente una caída del servicio externo.
+
+Preconditions:
+Servicio externo no disponible.
+
+Steps:
+1. Ejecutar acción de integración
+
+Expected Result:
+El sistema muestra mensaje de error sin romper el flujo.
