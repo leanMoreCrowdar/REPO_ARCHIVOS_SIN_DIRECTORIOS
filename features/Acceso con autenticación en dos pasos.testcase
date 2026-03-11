@@ -7,7 +7,7 @@ Identifier:
 TC050
 
 Title:
-Acceso con autenticación en dos pasos
+A2cceso con autenticación en dos pasos
 
 Description:
 Verificar que el usuario pueda completar login con OTP.
