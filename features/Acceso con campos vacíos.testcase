@@ -7,7 +7,7 @@ Identifier:
 TC005
 
 Title:
-Acceso con casdasdasdampos vacíos
+LEAN
 
 Description:
 Verificar que el sistema no permita el acceso si los campos están vacíos.
